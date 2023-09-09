@@ -1,39 +1,39 @@
-name,type,city,state,zip,boothNumber,id
-Amerock,Vendor,Huntersville,NC,28078,302,2005
-BASCO Shower Enclosures,Vendor,Mason,OH,45040,103,2085
-Best Card,Vendor,Centennial,CO,80111,109,2072
-BKBG,Vendor,Bethesda,MD,20005,212,2061
-BOCCHI,Vendor,Alpharetta,GA,30005,401,2107
-C.H. Briggs,Vendor,Reading,PA,19605,213,2113
-Cabinetworks Group – Elkay and Masco Products,Vendor,Ann Arbor,MI,48105,206,2035
-"Caesarstone
-",Vendor,Charlotte,NC,28208,305,2087
-Congoleum Corporation,Vendor,Mercerville,NJ,08619-0127,403,2013
-Cosentino Surfaces,Vendor,Coral Gables,FL,33134,204,2014
-Daltile Corporation,Vendor,Dallas,TX ,75217,105,2016
-Emser Tile,Vendor,Los Angeles,CA,90069,203,2081
-Formica Corporation,Vendor,Cincinnati,OH,45241,310,2100
-Grothouse Lumber Co.,Vendor,Germansville,PA,18053,300,2022
-"GuildQuality, Inc.",Vendor,Atlanta,GA,30324,210,2083
-Häfele America,Vendor,Archdale,NC,27263,400,2023
-Hardware Resources,Vendor,Bossier City,LA,71172,314,2024
-Holiday Kitchens,Vendor,Rice Lake,WI,54868,409,2025
-Insinkerator,Vendor,Racine,WI,53406,405,2027
-John Boos & Co.,Vendor,Effingham,IL,62401,303,2030
-JR CMO,Vendor,McKinney,TX,75070,107,2110
-Kitchen Branding Gifts,Vendor,St. Louis,MO,63108,113,2077
-Lenova Sinkware,Vendor,Hillside,IL,60162,201,2033
-Locallogy,Vendor,Dublin,OH,43017,211,2080
-MasterBrand Cabinets,Vendor,Jasper,IN,47547-0420,200,2034
-Remodelers Advantage,Vendor,Linthicum,MD,21090,111,2097
-Rev-A-Shelf (Tresco Lighting),Vendor,Jeffersontown,KY,40299-2527,101,2040
-Richelieu America Ltd.,Vendor,Sterling Heights,MI,48312,205,2041
-Sherwin Williams,Vendor,Houston,TX,77040,208,2071
-Sirius Range Hoods (through AID),Vendor,Plattsburgh,NY,12901,202,2044
-Stor-X Organizing Systems,Vendor,Richmond,BC,V7A 5J1,407,2046
-Task Lighting Corporation,Vendor,Bossier City,LA,71172,312,2049
-The Stock Market,Vendor,Newport News,VA,23602-4314,404,2050
-Top Knobs (USA),Vendor,Hillsborough,NJ,8502,215,2051
-Warmly Yours Radiant Heating,Vendor,Lake Zurich,IL,60047,402,2054
-Waypoint Living Spaces,Vendor,Winchester,VA,22603,304,2055
-"Wellborn Cabinet, Inc.",Vendor,Ashland,AL,36251,301,2068
+name,id,boothNumber,rotationOrder
+Sherwin Williams,2071,101,1
+Formica Corporation,2100,103,2
+Emser Tile,2081,105,3
+Wellborn,2068,109,4
+Lenova Sinkware,2033,111,5
+Remodelers Advantage,2097,113,6
+Cabico Custom Cabinetry,2011,115,7
+Locallogy,2080,214,8
+John Boos & Co.,2030,212,9
+"GuildQuality, Inc.",2083,210,10
+Caesarstone,2087,208,11
+Waypoint,2055,204,12
+Warmly Yours Radiant Heating,2054,202,13
+Daltile,2016,200,14
+Cabinetworks,2035,201,15
+The Stock Market,2050,203,16
+BOCCHI,2107,205,17
+Rev-A-Shelf (Tresco Lighting),2040,209,18
+Triton Stone Group,2117,211,19
+Amerock,2005,213,20
+Hafele,2023,215,21
+Essential Cabinetry Group,2116,219,22
+BKBG,2061,318,23
+Cosentino,2014,314,24
+JSI Cabinetry,2031,312,25
+Best Card dba Chipt,2072,310,26
+Grothouse Lumber Co.,2022,308,27
+Top Knobs,2051,304,28
+Task Lighting,2049,302,29
+Hardware Resources,2024,300,30
+Stor-X Organizing Systems,2046,301,31
+Holiday Kitchens,2025,303,32
+Insinkerator,2027,305,33
+Sirius Range Hoods (through AID),2044,307,34
+MasterBrand Cabinets,2034,309,35
+Kitchen Branding Gifts,2077,311,36
+BASCO Shower Enclosures,2085,313,37
+Richelieu America Ltd.,2041,315,38
