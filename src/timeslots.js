@@ -22,16 +22,20 @@ const runGroup = (groupId, pairs) => {
   groupBlocks.map((block, blockIdx) => {
     let idx = 0
     let time = block.start
+    const startMinute = time % 100
+    const startHour = block.start - startMinute
 
     while (time < block.end){
       if(timeslots.length === slotCount) break // Stop if the need number of slots is acheived
-      const rawOffset = slotLength * idx
+      const rawOffset = startMinute + (slotLength * idx)
       const hoursOffset = Math.floor(rawOffset / 60) * 100
       const minutesOffset = rawOffset % 60
-      time = block.start + hoursOffset + minutesOffset
+
+      time = startHour + hoursOffset + minutesOffset
 
       let type = 'rotation'
-      if(rawOffset % 40 === 0 && rawOffset !== 0){
+      const breakMod = startMinute + 40 // 40 minutes from the starting minute
+      if(rawOffset % breakMod === 0 && rawOffset !== 0){
         type = 'break'
       }
 
