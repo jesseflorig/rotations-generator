@@ -1,0 +1,43 @@
+/*
+ * Blue #071a71 rgb(7, 26, 113)
+ * Gold #d2b36d rgb(210, 179, 109)
+ * */
+
+.page{
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  break-after: page;
+}
+
+h1, th {
+  color: #071a71;
+}
+
+th.colHead {
+  background-color: #071a71;
+  color: #fff;
+}
+
+.alt-row {
+  background-color: rgba(210, 179, 109, .2);
+}
+
+.logo.vendor{
+  position: absolute;
+  top: 0;
+  left: 68px;
+  height: 5em;
+  mix-blend-mode: multiply;
+}
+
+.logo.member{
+  position: absolute;
+  top: 0;
+  left: 140px;
+  height: 5em;
+  mix-blend-mode: multiply;
+}

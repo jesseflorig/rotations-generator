@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import MemberRoatations from './MemberRotations'
+import VendorRotations from './VendorRotations'
+
+const RENDER_MEMBERS = true // false for vendors
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {RENDER_MEMBERS && <MemberRoatations />}
+      {!RENDER_MEMBERS && <VendorRotations />}
     </div>
   );
 }

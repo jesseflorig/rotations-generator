@@ -1,0 +1,23 @@
+table {
+  width: 60vw;
+}
+
+.memberTable {
+  padding-bottom: 2em;
+}
+
+.memberTable .thTime, .memberTable .tdTime {
+  width: 6em;
+}
+
+.thCompany, .tdCompany {
+  text-align: left;
+}
+
+.thBooth, .tdBooth {
+  width: 4em;
+}
+
+.tdBreak {
+  font-weight: bold;
+}
