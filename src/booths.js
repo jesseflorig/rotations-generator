@@ -1,4 +1,4 @@
-import booths from './data/boothNumbers.json'
+import booths from './data/vendors.json'
 import { rotateArrayLeft } from './utils'
 
 // Create an array from start to end
@@ -13,7 +13,7 @@ const initRotation = (start, end, step=1) => {
 const buildRotation = (idxList) => {
   let rotation = []
   idxList.map(idx => {
-    const boothByIdx = booths.filter(booth => booth.order === `${idx}`)[0]
+    const boothByIdx = booths.filter(booth => booth.rotationOrder === `${idx}`)[0]
     rotation.push(boothByIdx)
   })
   return rotation
