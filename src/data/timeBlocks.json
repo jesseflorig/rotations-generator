@@ -1,6 +1,6 @@
 [
   {"group": "A", "date": "September 19", "start": 800, "end": 1200 },
   {"group": "B", "date": "September 19", "start": 1300, "end": 1700 },
-  {"group": "A", "date": "September 20", "start": 800, "end": 1000 },
-  {"group": "B", "date": "September 20", "start": 1000, "end": 1200 }
+  {"group": "A", "date": "September 20", "start": 745, "end": 930 },
+  {"group": "B", "date": "September 20", "start": 930, "end": 1115 }
 ]
