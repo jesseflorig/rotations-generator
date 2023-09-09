@@ -9,7 +9,6 @@ const convert = (filename) => {
 }
 
 //process files
-//convert("members")
-//convert("vendors")
+convert("members")
+convert("vendors")
 convert("pairs")
-//convert("boothNumbers")
