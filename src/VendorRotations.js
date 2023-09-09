@@ -1,4 +1,4 @@
-import booths from './data/boothNumbers.json'
+import booths from './data/vendors.json'
 import { generateTimeslots } from './timeslots'
 import { generatePairs } from './pairs'
 import { rotateArrayRight } from './utils'
