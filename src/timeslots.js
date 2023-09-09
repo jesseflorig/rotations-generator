@@ -1,5 +1,5 @@
 import timeBlocks from './data/timeBlocks.json'
-import boothNumbers from './data/boothNumbers.json'
+import boothNumbers from './data/vendors.json'
 
 // Block is a unit of time member spends rotating the booth floor
 // Slot is a unit of time a member spends at a single booth
