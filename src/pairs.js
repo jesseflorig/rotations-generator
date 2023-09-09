@@ -11,7 +11,7 @@ export const generatePairs = () => {
 // Generate complete pairs for a rotation group
 const generatePairsByGroup = (groupId) => {
   const forcedPairs = pairs
-    .filter(pair => pair.firstPairRotationGroup === `Group ${groupId}`)
+    .filter(pair => pair.firstPairRotationGroup === `${groupId}`)
     .map(({firstPairId, secondPairId}) => {
       const secondId = secondPairId === null ? undefined : secondPairId
       return [firstPairId, secondId ]
@@ -70,7 +70,7 @@ const getPeerGroup = (rotationGroup, peerId, ignoreIds) => {
   return members
     .filter(member => 
       !ignoreIds.includes(member.id) &&
-      member.rotationGroup === `Group ${rotationGroup}` &&
+      member.rotationGroup === `${rotationGroup}` &&
       member.peerGroup === peerId
     )
     .map(member => member.id)
