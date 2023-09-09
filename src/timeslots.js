@@ -50,8 +50,8 @@ const calculateSlotAndBreakLengths = (blocks, boothCount, pairCount) => {
   // TODO: Make this smarter, but for now just staticly set 8 min slots
   // per 2 hour block
   
-  const slotLength = 8
-  const notNeeded = 2 // static number of slots to drop (not needed)
+  const slotLength = 8 // in minutes
+  const notNeeded = 0 // slots to drop in the event there are extra blocks (JANKY!)
   const slotCount = ((120/slotLength) * 3 ) - notNeeded
 
   return { slotCount, slotLength }
