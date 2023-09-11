@@ -53,13 +53,12 @@ const genPad = (current, target) => {
 
 // Flatten Timeslots for Vendors
 const flattenTimeslots = timeslots => {
+  console.log('timeslots',timeslots)
   const blendedTimeslots = [
-    ...timeslots['A'].slice(0,15),
-    ...timeslots['B'].slice(0,15),
-    ...timeslots['A'].slice(15,30),
-    ...timeslots['B'].slice(15,30),
+    ...timeslots['A'].slice(0,30),
+    ...timeslots['B'].slice(0,30),
+    ...timeslots['A'].slice(30,43),
     ...timeslots['B'].slice(30,43),
-    ...timeslots['A'].slice(30,43)
   ]
   // Rewrite slot indecies
   return blendedTimeslots.map((slot, idx) => {
