@@ -8,7 +8,8 @@ import VendorRotationCard from './VendorRotationCard'
 
 
 const padPairs = pairs => {
-  const rotationSlots = 37 // Don't include breaks
+  //TODO: Remove static value below
+  const rotationSlots = 38 // Don't include breaks
   const paddedA = [...pairs['A'], ...genPad(pairs['A'].length, rotationSlots)]
   const paddedB = [...pairs['B'], ...genPad(pairs['B'].length, rotationSlots)]
   return {'A': paddedA, 'B': paddedB}
@@ -31,15 +32,14 @@ const rotatePairs = (pairs, offset) => {
 }
 
 const flattenPairs = pairs => {
+  // TODO: determine flattening from timeblocks.json
   const pairsA = pairs['A']
   const pairsB = pairs['B']
   return [
-    ...pairsA.slice(0,13),
-    ...pairsB.slice(0,13),
-    ...pairsA.slice(13,26),
-    ...pairsB.slice(13,26),
-    ...pairsB.slice(26,38),
-    ...pairsA.slice(26,38),
+    ...pairsA.slice(0,25),
+    ...pairsB.slice(0,25),
+    ...pairsA.slice(25,38),
+    ...pairsB.slice(25,38),
   ]
 }
 
@@ -53,12 +53,12 @@ const genPad = (current, target) => {
 
 // Flatten Timeslots for Vendors
 const flattenTimeslots = timeslots => {
-  console.log('timeslots',timeslots)
+  // TODO: determine blending from timeblocks.json
   const blendedTimeslots = [
     ...timeslots['A'].slice(0,30),
     ...timeslots['B'].slice(0,30),
-    ...timeslots['A'].slice(30,43),
-    ...timeslots['B'].slice(30,43),
+    ...timeslots['A'].slice(30,44),
+    ...timeslots['B'].slice(30,44),
   ]
   // Rewrite slot indecies
   return blendedTimeslots.map((slot, idx) => {
