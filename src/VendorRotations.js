@@ -36,10 +36,10 @@ const flattenPairs = pairs => {
   const pairsA = pairs['A']
   const pairsB = pairs['B']
   return [
-    ...pairsA.slice(0,25),
-    ...pairsB.slice(0,25),
-    ...pairsA.slice(25,38),
-    ...pairsB.slice(25,38),
+    ...pairsA.slice(0,26),
+    ...pairsB.slice(0,26),
+    ...pairsA.slice(26,38),
+    ...pairsB.slice(26,38),
   ]
 }
 
