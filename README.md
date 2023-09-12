@@ -25,4 +25,6 @@ Setting `RENDER_MEMBERS` to `false` in `App.js` will generate __vendor__ rotatio
 ## TODO
 
  - [ ] Create make file to simplify workflow (no editing files)
- - [ ] Fix off the hour timeslot bug (timeblock that doesnt start at minute 0 - e.g. 0815 vice 0800)
+ - [x] Fix off the hour timeslot bug (timeblock that doesnt start at minute 0 - e.g. 0815 vice 0800)
+ - [ ] Fix break logic for same item as above
+ - [ ] Make `<VendorRotationCard />` dynamicly generate based on `timeBlocks.json` (vice static data)
