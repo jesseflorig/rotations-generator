@@ -9,13 +9,20 @@ h1 {
 }
 
 .vendorTable-19, .vendorTable-20 {
-  width: 80vw;
+  width: 100vw;
   font-size: .2em;
   break-after: page;
 }
 
+
 .thTime, .tdTime {
-  width: 18em;
+  width: 7vw;
+  padding-right: 4em;
+  text-align: right;
+}
+
+.thCompany, .tdCompany {
+  width: 46.5vw;
 }
 
 .tdBreak {
