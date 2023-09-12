@@ -34,7 +34,7 @@ const runGroup = (groupId, pairs) => {
       time = startHour + hoursOffset + minutesOffset
 
       let type = 'rotation'
-      const breakMod = startMinute + 40 // 40 minutes from the starting minute
+      const breakMod = startMinute + 48 // 40 minutes from the starting minute
       if(rawOffset % breakMod === 0 && rawOffset !== 0){
         type = 'break'
       }
