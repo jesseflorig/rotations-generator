@@ -40,7 +40,7 @@ const DayTable = ({ day, timeslots, pairs, booth }) => {
   const dayLabel = day.slice(day.length - 2, day.length)
   return (
     <>
-      {dayLabel === "21" && (
+      {dayLabel === "20" && (
         <>
           <h1>{`${booth.name} | Booth #${booth.boothNumber}`}</h1> 
         </>
